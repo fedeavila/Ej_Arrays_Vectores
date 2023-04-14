@@ -122,3 +122,7 @@ console.log(chicas);
 let chicos = sectorAB.splice(0, 2);
 console.log(chicos);
 
+
+// ---------------------------------------------------------------------------------------
+
+document.getElementById('caja').innerHTML = sectorAB;
