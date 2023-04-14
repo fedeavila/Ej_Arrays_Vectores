@@ -72,3 +72,15 @@ for (let index = 0; index < alumnes.length; index++) {
 	}
 };
 
+// Metodos utiles para laburar con Arrays
+let puntos = [1, 8, 11, 54];
+let cosas = ["word", "Word", "1 Word", "2 Words"];
+console.log(cosas);
+
+// Utilizamos metodo Sort para ordernar
+// Nros primero, Letras mayus primero, Letras min despues
+console.log(cosas.sort());
+
+// Acceso al ultimo elemento del Array
+let ultimoElementoDelArray = cosas[cosas.length - 1];
+
